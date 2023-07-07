@@ -1,7 +1,6 @@
 ---
-# Title
 
-Beyond the Code - Investigating the Effects of Pull Request Conversations on Design Decay
+title: Beyond the Code - Investigating the Effects of Pull Request Conversations on Design Decay
 ---
 
 # Authors
