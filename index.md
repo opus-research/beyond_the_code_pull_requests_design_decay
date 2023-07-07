@@ -3,6 +3,10 @@
 title: Beyond the Code - Investigating the Effects of Pull Request Conversations on Design Decay
 ---
 
+# Paper Title
+
+Beyond the Code - Investigating the Effects of Pull Request Conversations on Design Decay
+
 # Authors
 
 Caio Barbosa, Anderson Uchôa, Daniel Coutinho, Wesley K. G. Assunc ̧ Anderson Oliveira, Alessandro Garcia, Baldoino Fonseca, Matheus Rabelo, José Eric Coelho, Eryka Carvalho, Henrique Santos
