@@ -44,7 +44,6 @@ class MainStatistical:
                 project_name = project['repo']
                 project_owner = project['owner']
 
-                # print(project_name)
                 database = self.mongo_connection[project_owner + '-' + project_name]
 
                 database_results = database['results_wilcoxon']
@@ -87,8 +86,7 @@ class MainStatistical:
             for project in self.projects:
                 project_name = project['repo']
                 project_owner = project['owner']
-
-                # print(project_name)
+                
                 database = self.mongo_connection[project_owner + '-' + project_name]
 
                 database_results = database['results_regression']
@@ -259,14 +257,8 @@ class MainStatistical:
                     result = result.drop(columns=['significant'])
                     result.rename(columns={'odds_ratio': owner}, inplace=True)
                     print(result.to_latex(escape=False).replace('NaN', ' '))
-                    # result = result.transpose()
-                    # results.append(result)
                 except:
                     pass
-
-                # df = pd.concat(results)
-
-                # print(df.to_latex(escape=False).replace('NaN', ' '))
 
     @staticmethod
     def _swap_dict_keys(result):
